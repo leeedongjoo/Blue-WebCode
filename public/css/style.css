@@ -145,6 +145,13 @@ div.contents > div.user-name {
 #name{
   cursor: pointer;
 }
+#Email{
+  cursor: pointer;
+}
+#hack{
+  cursor: pointer;
+}
+
 div.contents > div.user-email {
   width: 329px;
   height: 18px;

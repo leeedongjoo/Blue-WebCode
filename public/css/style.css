@@ -140,6 +140,16 @@ div.contents > div.user-name {
   line-height: 29px;
 
   color: #000000;
+  
+}
+#name{
+  cursor: pointer;
+}
+#Email{
+  cursor: pointer;
+}
+#hack{
+  cursor: pointer;
 }
 
 div.contents > div.user-email {

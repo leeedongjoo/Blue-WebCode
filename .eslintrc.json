@@ -12,6 +12,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "max-len" :"off",
         "linebreak-style": 0
     }
 }

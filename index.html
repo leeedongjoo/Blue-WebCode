@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="/public/css/style.css" rel="stylesheet" />
+  <link href="./public/css/style.css" rel="stylesheet" />
 </head>
 <body>
   <header>
     <div class="title">
       대림대 <span>관리 페이지</span>      
     </div>
-    <img src="/public/image/dealim_logo.png" />
+    <img src="./public/image/dealim_logo.png" />
     <div class="user">
       홍길동 <span>님</span>
     </div>
@@ -42,14 +42,14 @@
     </div>    
     <div class="contents">
       <div class="user-name">
-        홍길동 <span>님</span>
+        <span id="name">홍길동</span> <span>님</span>
       </div>
       <div class="user-email">
-        20210101, ABC@abc.com
+        <span id="hack">20210101</span> <span id="Email">ABCD@abc.com</span>
       </div>
       <div class="card-area">
         <div class="card">
-          <img src="/public/image/team.png" />
+          <img src="./public/image/team.png" />
           <div class="card-title">정기주차 인원 등록</div>
           <div class="card-content">
             정기주차 인원을 승인하거나 <br/>
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="/public/image/garage.png" />
+          <img src="./public/image/garage.png" />
           <div class="card-title">차량정보 등록 승인</div>
           <div class="card-content">
             차량 정보 등록 승인여부를 <br/>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="/public/image/parking.png" />
+          <img src="./public/image/parking.png" />
           <div class="card-title">주차 정보 확인</div>
           <div class="card-content">
             주차 정보와 관련된 현황 및 <br/>
@@ -81,5 +81,6 @@
       </div>
     </div>
   </section>
+  <script src="./public/js/index.js"></script>
 </body>
 </html>
